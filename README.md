@@ -92,6 +92,13 @@ Step 4
 Features validation of numeric input.  Conversion of integer to Roman Numeral.  Reset button, in case
 there is an emergency.
 
+## Technologies
+
+This project uses HTML5, CSS3, JavaScript, Bootstrap 5.0.0-beta1 and Google Fonts (e.g. Roboto).
+JavaScript is used to validate numeric input.
+
+
+
 
 
 
