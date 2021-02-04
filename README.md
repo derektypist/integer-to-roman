@@ -87,6 +87,12 @@ Step 4
 - Finally number is 0, algorithm stops here.
 - Output obtained is **MCMXC**.
 
+## Features
+
+Features validation of numeric input.  Conversion of integer to Roman Numeral.  Reset button, in case
+there is an emergency.
+
+
 
 
 
