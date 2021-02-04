@@ -53,7 +53,42 @@ Number ranges from 1 to 3999.
 
 Compare given number with the base values in the order 1000, 900, 500, 400, 100, 90, 50, 40, 10,
 9, 5, 4 and 1.  Base value which is smaller or equal to the given number will be the initial base
-(largest base value) 
+(largest base value).  Divide the number by its largest base value, the corresponding base symbol
+will be repeated quotient times, the remainder will then become the number for future divisions and
+repetitions.  The process will be repeated until the number becomes zero.
+
+**Example to demonstrate above algorithm:**
+
+    Convert 1990 to its Roman Numerals
+    Output is MCMXC
+
+Explanation:
+
+Step 1
+
+- Initial Number is 1990
+- Since 1990 >= 1000, initial base value is 1000
+- Divide 1990 by 1000, Quotient is 1, Remainder is 990.  Corresponding symbol M will be repeated once.
+
+Step 2
+
+- Now, number is 990
+- 1000 > 990 >= 900, largest base value will be 900
+- Divide 990 by 900, Quotient is 1, Remainder is 90.  Corresponding symbol CM will be repeated once.
+
+Step 3
+
+- Now number is 90
+- 100 > 90 >= 90, largest base value will be 90
+- Divide 90, by 90, Quotient is 1, Remainder is 0.  Corresponding symbol XC will be repeated once.
+
+Step 4
+
+- Finally number is 0, algorithm stops here.
+- Output obtained is **MCMXC**.
+
+
+
 
 
 
@@ -65,4 +100,4 @@ Compare given number with the base values in the order 1000, 900, 500, 400, 100,
 Acknowledgements
 
 - [Geeks for Geeks - Converting Decimal Number to Roman Numerals](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-- 
+- [w3schools.com](https://www.w3schools.com)
