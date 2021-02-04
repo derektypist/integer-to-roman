@@ -26,7 +26,7 @@ As a user, assuming that I make a valid input, I should get the number entered a
 numeral.
 
 As a user, every time I enter a value and hit the submit button, I get fresh information.
-As a user, when I hit the Reset button, I get 
+As a user, when I hit the Reset button, I start again and get fresh information.
 As a user, I expect a placeholder on the input field.  When I hover over the input field, I get
 a screentip.
 
@@ -97,20 +97,24 @@ there is an emergency.
 This project uses HTML5, CSS3, JavaScript, Bootstrap 5.0.0-beta1 and Google Fonts (e.g. Roboto).
 JavaScript is used to validate numeric input.
 
+## Testing
 
+Make sure all the user stories have been met.  If I enter 1990 in the input field and hit Submit,
+I expect the Roman Numeral to be MCMXC.
 
+## Deployment
 
-
-
-
-
-
-
-
+Deployed on [GitHub Pages](https://derektypist.github.io/integer-to-roman) at the main branch.
+Any updates use the `git push` command.
 
 ## Credits
 
-Acknowledgements
+### Content
 
-- [Geeks for Geeks - Converting Decimal Number to Roman Numerals](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-- [w3schools.com](https://www.w3schools.com)
+Written by myself.  Algorithm in the UX section taken from the Geeks for Geeks website.
+
+### Acknowledgements
+
+- [Geeks for Geeks - Converting Decimal Number to Roman Numerals](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/) for the algorithm and code
+(although did the JavaScript Version).
+- [w3schools.com](https://www.w3schools.com) for the numeric input validation.
